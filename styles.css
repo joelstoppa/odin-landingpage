@@ -33,7 +33,7 @@ button {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    padding: 0 90px;
+    padding: 30px 90px;
 
 }
 
@@ -54,6 +54,8 @@ button {
 
 .hero {
     align-self: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-title {
@@ -69,4 +71,8 @@ button {
 
 .container {
     padding-left: 30px;
+    border-radius: 10px;
+    background: url(./image.jpg);
+    background-size: cover;
+    flex: 1.5;
 }
