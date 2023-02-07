@@ -48,14 +48,16 @@ button {
 
 .header-bot {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 90px;
+    gap: 30px;
 }
 
 .hero {
     align-self: center;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .hero-title {
@@ -70,9 +72,9 @@ button {
 }
 
 .container {
-    padding-left: 30px;
     border-radius: 10px;
     background: url(./image.jpg);
     background-size: cover;
-    flex: 1.5;
+    flex: 1.2;
+    flex-basis: content;
 }
