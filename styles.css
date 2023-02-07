@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-top,
+.header-bot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: flex;
+    list-style: none;
+}
