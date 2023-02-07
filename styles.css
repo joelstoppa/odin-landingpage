@@ -58,6 +58,7 @@ button {
     display: flex;
     flex-direction: column;
     flex: 1;
+
 }
 
 .hero-title {
@@ -71,10 +72,14 @@ button {
     color: #e5e7eb;
 }
 
+.signup {
+    flex-grow: 0;
+}
+
 .container {
     border-radius: 10px;
     background: url(./image1.jpg);
     background-size: cover;
     flex: 1.2;
-    flex-basis: content;
+    
 }
