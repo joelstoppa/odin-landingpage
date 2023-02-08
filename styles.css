@@ -43,7 +43,6 @@ button {
 .header {
     display: flex;
     flex-direction: column;
-
 }
 
 .header-top {
@@ -207,4 +206,16 @@ button {
 
 .fourth-right button {
     border: #e5e7eb solid 2px;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer-text {
+    color: #e5e7eb;
 }
