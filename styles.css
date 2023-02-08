@@ -115,6 +115,7 @@ button {
 .second-bot {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 90px;
 }
