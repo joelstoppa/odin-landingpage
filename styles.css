@@ -109,12 +109,14 @@ button {
     color: #1f2937;
     display: flex;
     justify-content: center;
+    margin: 10px 0;
 }
 
 .second-bot {
     display: flex;
     justify-content: space-evenly;
     gap: 30px;
+    margin-bottom: 90px;
 }
 
 .square {
@@ -136,4 +138,34 @@ button {
 
 .subtext {
     padding-left: 20px;
+}
+
+.third-section {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 30px;
+}
+
+.third-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    max-width: 890px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    padding-left: 50px;
+}
+
+.quote-name {
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 18px;
 }
