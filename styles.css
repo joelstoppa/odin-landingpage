@@ -94,7 +94,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 .second-content {
@@ -121,7 +121,7 @@ button {
     width: 150px;
     height: 150px;
     border: 3px solid #3882f6;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .container {
@@ -130,4 +130,10 @@ button {
     align-items: center;
     width: 200px;
     gap: 10px;
+    font-size: 18px;
+    color: #929292;
+}
+
+.subtext {
+    padding-left: 20px;
 }
